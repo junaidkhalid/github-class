@@ -58,46 +58,7 @@ Set your favorite text editor, following this table:
 
 It is possible to reconfigure the text editor for Git whenever you want to change it.
 
-> ## Exiting Vim
->
-> Note that Vim is the default editor for many programs. If you haven't used Vim before and wish to exit a session without saving
-your changes, press <kbd>Esc</kbd> then type `:q!` and hit <kbd>Return</kbd>.
-> If you want to save your changes and quit, press <kbd>Esc</kbd> then type `:wq` and hit <kbd>Return</kbd>.
-{: .callout}
 
-The four commands we just ran above only need to be run once: the flag `--global` tells Git
-to use the settings for every project, in your user account, on this computer.
-
-You can check your settings at any time:
-
-~~~
-$ git config --list
-~~~
-{: .language-bash}
-
-You can change your configuration as many times as you want: use the
-same commands to choose another editor or update your email address.
-
-> ## Proxy
->
-> In some networks you need to use a
-> [proxy](https://en.wikipedia.org/wiki/Proxy_server). If this is the case, you
-> may also need to tell Git about the proxy:
->
-> ~~~
-> $ git config --global http.proxy proxy-url
-> $ git config --global https.proxy proxy-url
-> ~~~
-> {: .language-bash}
->
-> To disable the proxy, use
->
-> ~~~
-> $ git config --global --unset http.proxy
-> $ git config --global --unset https.proxy
-> ~~~
-> {: .language-bash}
-{: .callout}
 
 > ## Git Help and Manual
 >
@@ -113,4 +74,3 @@ same commands to choose another editor or update your email address.
 >
 {: .callout}
 
-[git-privacy]: https://help.github.com/articles/keeping-your-email-address-private/
