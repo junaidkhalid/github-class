@@ -72,5 +72,4 @@ It is possible to reconfigure the text editor for Git whenever you want to chang
 >
 > While viewing the manual, remember the `:` is a prompt waiting for commands and you can press <kbd>Q</kbd> to exit the manual.
 >
-{: .callout}
 
