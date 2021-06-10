@@ -1,5 +1,7 @@
 ---
 title: Setting Up Git
+teaching: 5
+exercises: 0
 questions:
 - "How do I get set up to use Git?"
 objectives:
